@@ -13,3 +13,6 @@ Host: unibe.ch
 HEAD / HTTP/1.1
 Host: unibe.ch
 #press "Enter" twice
+
+
+#This is a random change made in order to test if Github works.
