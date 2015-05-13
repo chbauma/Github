@@ -1,0 +1,15 @@
+#in Shell:
+telnet uibe.ch 80
+
+GET / HTTP/1.0
+#press "Enter" twice
+
+#or 
+GET / HTTP/1.1
+Host: unibe.ch
+#press "Enter" twice
+
+#to get just the header of the page (and not whole page)
+HEAD / HTTP/1.1
+Host: unibe.ch
+#press "Enter" twice
